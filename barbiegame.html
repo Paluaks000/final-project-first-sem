@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title></title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Navigation</title>
+
+</head>
+<body>
+
+    <div id="main-screen" class="screen active">
+        <h1>What is something you want from the dreamhouse?</h1>
+        <button onclick="showScreen('screen1')">The closet</button>
+        <button onclick="showScreen('screen2')">The caravan</button>
+        <button onclick="showScreen('screen2')">The Kitchen</button>
+        <button onclick="showScreen('screen3')">The dreamhouse</button>
+    </div>
+
+    <div id="screen1" class="screen">
+        <h1>You Choose Closet</h1>
+        <H2>You really love to looking so fashionable!!</H2>
+        <button onclick="showScreen('main-screen')">Back</button>
+    </div>
+
+    <div id="screen2" class="screen">
+        <h1>You Choose Caravan</h1>
+        <h2>Your passion for exploring new places is inspiring!!</h2>
+        <button onclick="showScreen('main-screen')">Back</button>
+    </div>
+
+    <div id="screen3" class="screen">
+        <h1>You Choose Kitchen</h1>
+        <h2>Your passion for cooking really shines through in every dish you make :D</h2>
+        <button onclick="showScreen('main-screen')">Back</button>
+    </div>
+
+    <div id="screen3" class="screen">
+        <h1>You Choose The Whole Dreamhouse!!</h1>
+        <h2>A Barbie Dream House would be the perfect place to bring all your creativity to life!</h2>
+        <button onclick="showScreen('main-screen')">Back</button>
+    </div>
+
+    <script src="javascript2.js" defer></script>
+
+    <!--script>
+        function showScreen(screenId) {
+            const screens = document.querySelectorAll('.screen');
+            screens.forEach(screen => screen.classList.remove('active'));
+            document.getElementById(screenId).classList.add('active');
+        }
+    </script-->
+    <a href="index.html">_Home_</a>
+</body>
+</html>

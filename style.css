@@ -1,0 +1,59 @@
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26d0bc78-5e8b-405d-b3db-760d48e10733/dg5rt90-6eb57340-b993-4261-86bd-8b297f38b3c9.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2ZDBiYzc4LTVlOGItNDA1ZC1iM2RiLTc2MGQ0OGUxMDczM1wvZGc1cnQ5MC02ZWI1NzM0MC1iOTkzLTQyNjEtODZiZC04YjI5N2YzOGIzYzkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.reR30RUzdxRpybLJ0tfJotgeSvy09aGZ8h3sRJpj_sU);
+    color: #bd1d92;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+}
+h1 {
+    font-size: 50px;
+    font-family:'Couries New', 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    color:#ea9de1;
+    font-family:'Couries New', 'Courier New', Courier, monospace;
+}
+a {
+    border: 7px groove rgb(234, 96, 170);
+    text-decoration: none;
+    color: rgb(226, 87, 161);
+    background-color: #ec82be;
+    
+}
+h3 {
+    color:green;
+}
+
+button {
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.screen {
+    display: none;
+}
+.active {
+    display: block;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-left:80px;
+}
